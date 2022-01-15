@@ -1,0 +1,53 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,600&family=Roboto:wght@500;700&display=swap');
+</style>
+
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.top-section{
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    margin-left: 50px;
+}
+.camera-heading h1{
+    font-size: 60px;
+    color: #3A3A3A;
+    font-weight: 580;
+
+}
+.camera-heading p{
+   font-weight: 580;
+}
+
+.camera-image img{
+    width: 100%;
+}
+.primary-button{
+  text-align: center;
+padding: 10px;
+background-color: #E02C6D;
+width: 25%;
+font-weight: 700;
+color: #fff;
+border-radius: 15px;
+cursor: pointer;
+border-color: #fff;
+
+}
+.primary-button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 2s;
+}
+.right-arrow{
+    width: 15px;
+}
