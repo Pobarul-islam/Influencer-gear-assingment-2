@@ -77,14 +77,14 @@ gap: 60px;
 
 
 
+
 /* Start Popular Collection Section  */
 
 
 .product{
  width: 330px;
- height: 476px;
-    
-    
+ height: 476p
+      
 }
 .product-img img{
     width: 300px;
@@ -112,3 +112,13 @@ gap: 60px;
     color: #5E6366;
 }
 
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-left: 100px;   
+}
+.product-content{
+    box-shadow: 4px 2px 4px 2px #AAAAAA;
+}
