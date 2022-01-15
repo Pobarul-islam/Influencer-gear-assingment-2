@@ -39,16 +39,12 @@ body{
     width: 100%;
 }
 .primary-button{
-  text-align: center;
-padding: 10px;
-background-color: #E02C6D;
-width: 25%;
-font-weight: 700;
-color: #fff;
-border-radius: 15px;
-cursor: pointer;
-border-color: #fff;
-
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
 }
 .primary-button:hover{
     background-color: #000;
@@ -76,49 +72,72 @@ gap: 60px;
 }
 
 
-
-
 /* Start Popular Collection Section  */
-
-
-.product{
- width: 330px;
- height: 476p
-      
+.popular{
+    margin-top: 10%;
 }
-.product-img img{
-    width: 300px;
-    height: 256px;
-}
-
-.product-items h1{
+.section-title h2{
     text-align: center;
+    font-size: 35px;
 }
-.product-dolar h4{
-    font-size: 30px;
+.popular-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.product-info img{
+    width: 330px;
+}
+.title h3{
+    font-size: 25px;
+}
+.product-price{
+    font-size: 25px;
     font-weight: 400;
 }
-
-.rating .fas{
-    color: #FB8200;
+.product-rating{
+    color: orange;
+    margin-top: 10px;
 }
 .rating-number{
-    font-weight: 700;
-    margin-left: 10px;
-    color: #5E6366;
+    color: gray;
 }
-
 .product-text{
-    color: #5E6366;
+    color: gray;
 }
-
-
-.product{
+.popular-product{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    margin-left: 100px;   
+    margin-left: 80px;
+    padding: 5px;
 }
-.product-content{
-    box-shadow: 4px 2px 4px 2px #AAAAAA;
+
+.product-info{
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+}
+.seemore{
+    font-weight: 700;
+    margin-left: 80%;
+    margin-top: 5%;
+    color: #E02C6D;
+}
+
+
+/* Join us section  */
+
+.join-box{
+ display: flex;
+  gap: 12%;
+  margin-left: 12%;
+}
+.primary-button{
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
 }
