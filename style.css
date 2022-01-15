@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,600&family=Roboto:wght@500;700&display=swap');
 </style>
 
+/* Start Camera Section  */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,13 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 
+}
+.container{
+    height: 650px;
+    margin-top: 5%;
+    
 }
 .top-section{
     display: flex;
@@ -51,3 +58,57 @@ border-color: #fff;
 .right-arrow{
     width: 15px;
 }
+/* End Camera Section  */
+
+
+.top-section .logo-image{
+margin: auto;
+display: flex;
+gap: 60px;
+
+}
+.company-logo{
+    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+    padding: 20px;
+    width: 90%;
+  
+}
+
+
+
+/* Start Popular Collection Section  */
+
+
+.product{
+ width: 330px;
+ height: 476px;
+    
+    
+}
+.product-img img{
+    width: 300px;
+    height: 256px;
+}
+
+.product-items h1{
+    text-align: center;
+}
+.product-dolar h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.rating .fas{
+    color: #FB8200;
+}
+.rating-number{
+    font-weight: 700;
+    margin-left: 10px;
+    color: #5E6366;
+}
+
+.product-text{
+    color: #5E6366;
+}
+
