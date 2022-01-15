@@ -47,7 +47,7 @@ body{
     border-radius: 10px;
 }
 .primary-button:hover{
-    background-color: #000;
+    background-color: tomato;
     color: #fff;
     transition: 2s;
 }
@@ -128,16 +128,33 @@ gap: 60px;
 
 /* Join us section  */
 
+.joinus{
+    margin-top: 10%;
+}
 .join-box{
  display: flex;
   gap: 12%;
   margin-left: 12%;
 }
-.primary-button{
-    background-color: #E02C6D;
+
+/* footer section  */
+footer{
+    width: 90%;
+    height: 15%;
+    background-color: #0A0826;
     color: #fff;
+    padding: 5%;
+    margin-top: 5%;
+}
+.footer-content{
+    text-align: center;
+}
+
+.footer-icon{
+    background-color: orange;
+   color: #fff;
+    border-radius: 20px;
     padding: 10px;
-    font-size: 15px;
-    border: none;
-    border-radius: 10px;
+    gap: 10px;
+    
 }
